@@ -2,7 +2,8 @@
 	font-family: Pixel Georgia;
 	src: url(fonts/18959.ttf);
 }
-body {
+body {    overflow: hidden;
+
 	font-family: Pixel Georgia;
 	background: gray;
 }
@@ -63,7 +64,8 @@ body {
 .row:first-child{
 	background-color: #3c2520;
 	height: 50px;
-	border-bottom: 1px solid #957964; 
+	box-shadow: none;
+    outline: 2px solid #957964;
 }
 
 
@@ -144,6 +146,7 @@ a[title="Search"]{
 	background: #3c2520;
 	float: left;
 	margin-left: 2px;
+	box-sizing: border-box;
 }
 #menu ul li a{
 	text-decoration: none;

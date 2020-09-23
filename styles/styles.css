@@ -319,3 +319,59 @@ a[title="Search"]{
 	height: 368px;
 	border-bottom: 1px solid #957964;
 }
+
+
+
+
+
+/*** Media ***/
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	h1{
+		font-size: 18px;
+	}
+	h1:first-letter {
+		font-size: 32px;
+	}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	h1{
+		font-size: 25px;
+	}
+	h1:first-letter {
+		font-size: 38px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	h1{
+		font-size: 40px;
+	}
+	h1:first-letter {
+		font-size: 45px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and(max-width: 767px) {
+	h1{
+		font-size: 40px;
+	}
+	h1:first-letter {
+		font-size: 50px;
+	}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	h1{
+		font-size: 50px;
+	}
+	h1:first-letter {
+		font-size: 60px;
+	}
+}

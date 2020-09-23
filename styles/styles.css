@@ -188,6 +188,26 @@ a[title="Search"]{
 	padding: 4px;
 	border: 1px solid #ddd;
 }
+
+.image_558x450 :hover {
+  animation-duration: 10s;
+  animation-name: change_outline_color;
+}
+
+@keyframes change_outline_color {
+  from {
+    outline: 10px solid red;
+  }
+
+  to {
+    outline: 10px solid green;    
+  }
+
+  75% {
+    outline: 10px solid blue;
+  }
+}
+
 .image_372x152 img{
 	padding-bottom: 1px;
 	padding-left: 20px;
@@ -229,6 +249,10 @@ a[title="Search"]{
 }
 .image_128x128 img{
 	border-radius: 50%;
+}
+.image_128x128 :hover{
+	transform: scale(1.2);
+	transition: 1s;
 }
 .text_128x128{
 	float: left;

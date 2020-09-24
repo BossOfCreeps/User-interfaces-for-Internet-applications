@@ -392,15 +392,11 @@ a[title="Search"]{
     padding: 20px;
 }
 .row:last-child div{
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	align-self: auto; 
-	align-items: flex-end;
-	align-content: space-between;
-	flex-basis: auto;
-	flex-shrink: 0;
-	flex-grow: 1;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+	grid-gap: 1%;
+	position: relative;
+	left: 0px;
 }
 
 /*** Media ***/

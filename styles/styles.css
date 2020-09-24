@@ -316,13 +316,92 @@ a[title="Search"]{
 }
 .bottom{
 	background-color: #efefef;
-	height: 368px;
 	border-bottom: 1px solid #957964;
 }
+.bottom div{
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+.bottom div b{
+	vertical-align: top;
+	line-height: 60px;
+	color: #666666;
+}
+.bottom div p{
+	color: #999999;
+	line-height: 20px;
+}
+.bottom div a{
+	color: #957964;
+}
+.bottom div u{
+	color: #666666;
+	text-decoration: none;
+	font-weight:bold;
+}
+.bottom div i{
+	color: #666666;
+	text-decoration: none;
+	font-weight:bold;
+	font-style: normal;
+	font-size: 10px;
+	position: relative;
+	top: -10px;
+}
 
+.bottom ul{
+	padding-top: 10px;
+	padding-left: 20px;
+	width: 100%;
+}
+.bottom ul li {
+	line-height: 0px;
+	float: left;
+	list-style-type:none;
+	margin-left: -20px;
+}
+.bottom ul li hr{
+	size: "10";
+	color: #ddd;
+	width: 300px;
+}
+.bottom input{
+	width: 100%;
+	background-color: #dddddd;
+	border-radius: 4px;
+	color: #807d77;
+	padding-left: 10px;
+	border: none;
+	margin-bottom: 10px;
+}
 
+.bottom button{
+	background-color: #957964;
+	color: white;
+	border-radius: 4px;	
+	border: 0px solid #957964;
+}
 
-
+/* Copyrigth */
+.row:last-child{
+	background-color: #1f1210;
+	height: 60px;
+    outline: 2px solid #957964;
+    color: #957964;
+    padding: 20px;
+}
+.row:last-child div{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-self: auto; 
+	align-items: flex-end;
+	align-content: space-between;
+	flex-basis: auto;
+	flex-shrink: 0;
+	flex-grow: 1;
+}
 
 /*** Media ***/
 
